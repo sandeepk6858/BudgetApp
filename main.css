@@ -1,0 +1,127 @@
+body {
+  background: #ecf9fa;
+  padding: 50px;
+}
+
+span.price {
+  font-weight: 200;
+  display: inline-block;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+.ui-widget-content {
+  border: 1px solid #bdc3c7;
+  background: #e1e1e1;
+  color: #222222;
+  margin-top: 4px;
+}
+
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 3.5em;/*5.2em;*/
+/*  height: 2.2em; */
+  cursor: default;
+  margin: 0 -10x auto !important;
+  text-align: center; 
+/*  line-height: 30px; */
+  color: #FFFFFF;
+  font-size: 15px;
+  
+}
+
+.ui-slider .ui-slider-handle .glyphicon {
+  color: #FFFFFF;
+  margin: 0 3px; 
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+.ui-corner-all {
+  border-radius: 20px;
+}
+
+
+
+/*.ui-slider-horizontal .ui-slider-handle {
+  top: -.9em;
+}*/
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 1px solid #f9f9f9;
+  background: #3498db;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  margin-left: -0.5em;
+}
+
+.ui-slider .ui-slider-handle {
+  cursor: pointer;
+}
+
+.ui-slider a,
+.ui-slider a:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+.price, .lead p {
+  font-weight: 600;
+  font-size: 32px;
+  display: inline-block;
+  line-height: 60px;
+}
+
+label {
+    display: inline-block;
+/*     font-weight: 700; */
+    margin-bottom: 5px;
+/*     font: normal 12px courier !important; */
+    
+}
+
+.glyphicon-chevron-right:before {
+    content: ">";
+    font-size:110%;
+}
+
+.glyphicon-chevron-left:before {
+    content: "<";
+    font-size:110%;
+}
+
+.glyphicon {
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    top: 1px;
+}
+.price-slider {
+  margin-bottom: 70px;
+}
+
+.ui-slider-range-min {
+  background: #2980b9;
+}
+
+#handle{
+  width: 2em;
+  height: 2em;
+  top: -0.7em;
+  text-decoration: none;
+}
+#handle label{
+  position: relative;
+  line-height: 100%;
+  margin-top: 8px;
+  display: none;
+}
+#handle:hover label{
+  display: block;
+  top: -35px;
+}
